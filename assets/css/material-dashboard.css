@@ -6506,7 +6506,7 @@ fieldset:disabled .btn {
 }
 
 .modal {
-  --bs-modal-zindex: 1050;
+  --bs-modal-zindex: 1045;
   --bs-modal-width: 500px;
   --bs-modal-padding: 1rem;
   --bs-modal-margin: 0.5rem;
@@ -6559,6 +6559,7 @@ fieldset:disabled .btn {
 
 .modal.show .modal-dialog {
   transform: none;
+  z-index: 1045;
 }
 
 .modal.modal-static .modal-dialog {
