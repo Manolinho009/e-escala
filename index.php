@@ -404,7 +404,7 @@ if ($_SESSION['usr_codfunc'] >= 3){
                                 </div>
                                 <div class='modal-footer'>
                                   <button type='button' class='btn btn-danger' data-bs-dismiss='modal'>Trocar</button>
-                                  <a  class='btn btn-success'>Confirmar</a>
+                                  <a href='?query=confirm' class='btn btn-success'>Confirmar</a>
                                 </div>
                               </div>
                             </div>
